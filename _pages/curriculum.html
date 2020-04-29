@@ -30,28 +30,17 @@ Daily Materials:
         <img src="{{ site.baseurl }}/assets/images/dancing-with-ai/curriculum-overview.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
       </div>
     </div>
-
     <div class="row">
-      <div class="col-lg-12 mx-auto text-center">
-      <h2 class="section-title">Course-Wide Materials</h2>
+      <div class="col-lg-8 mx-auto">
+        <h3 class="section-title mb-4">Course-Wide Materials</h3>
+        <ul class="font-secondary paragraph-lg" style="list-style-type: circle;">
+          {% for item in site.data.settings.course-wide-materials %}
+            <li class="mb-4"><a href="{{item.url}}">{{item.name}}</a></li>
+          {% endfor %}
+        </ul>
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-lg-8 mx-auto text-center">
-        <h2 class="section-title">Daily Activities</h2>
-      </div>
-    </div>
-
-<!--    curriculum-items:
-  - title: Hype Day! Intro to AI
-    links:
-        - name: "Teacher Slides"
-          url: "https://docs.google.com/presentation/d/14wcuF-48U-JLsaSoc9L1v_hrf494v33W8ROVFNYBSNg/edit?usp=sharing"
-        - name: "Teacher Script"
-          url: "https://docs.google.com/document/d/1le5D3fjsKBPdXnUz2PdTzvUFBKmXhp5bOD2tUkggyiM/edit"
-
--->
     {% for item in site.data.settings.curriculum-items %}
     <div class="row">
       <div class="col-lg-8 mx-auto">

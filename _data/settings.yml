@@ -153,6 +153,10 @@ curriculum-items:
           url: "https://docs.google.com/presentation/d/14wcuF-48U-JLsaSoc9L1v_hrf494v33W8ROVFNYBSNg/edit?usp=sharing"
         - name: "Teacher Script"
           url: "https://docs.google.com/document/d/1le5D3fjsKBPdXnUz2PdTzvUFBKmXhp5bOD2tUkggyiM/edit"
+        - name: "Charades (Printable Cards)"
+          url: "https://docs.google.com/document/d/1Y9Z44-5NDcS5cumYfeTEAw9xtL2DX0D99-r_h9GBZPY/edit"
+        - name: "Charades (Online Generator)"
+          url: "http://movement-charades.glitch.me/"
 
   - title: Training Image + Pose Models
     links:
@@ -180,6 +184,14 @@ curriculum-items:
         - name: "Teacher Script"
           url: "https://docs.google.com/document/d/1le5D3fjsKBPdXnUz2PdTzvUFBKmXhp5bOD2tUkggyiM/edit"
 
+
+course-wide-materials:
+  - name: "Student Journal"
+    url: "https://docs.google.com/presentation/d/1ILgv4ImxyDEvrME0M3CViTqjApBKO4nLvuy0VV02XWg/edit"
+  - name: "Block Cards"
+    url: "https://docs.google.com/presentation/d/1ILgv4ImxyDEvrME0M3CViTqjApBKO4nLvuy0VV02XWg/edit"
+  - name: "Project Idea Cards"
+    url: "https://docs.google.com/presentation/d/1ILgv4ImxyDEvrME0M3CViTqjApBKO4nLvuy0VV02XWg/edit"
 
 #-------------------------------
 # Portfolio (Section and Page)
