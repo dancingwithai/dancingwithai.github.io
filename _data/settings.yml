@@ -8,12 +8,9 @@ phone: TBD
 address: TBD
 
 menu:
-- {name: Day 1, link: '/blog/'}
-- {name: Day 2, link: '/blog/'}
-- {name: Day 3, link: '/blog/'}
-- {name: Day 4, link: '/blog/'}
-- {name: Day 5, link: '/blog/'}
+- {name: Curriculum, link: '/blog/'}
 - {name: About, link: '/blog/'}
+- {name: Create!, link: 'https://mitmedialab.github.io/prg-extension-boilerplate/create/'}
 
 
 #-------------------------------
@@ -37,7 +34,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Dancing <br> with AI
+  hero-title: Dancing <br> with AI <br> <font size=6>Designing Interactive AI Systems</font>
 
 social:
 #- {icon: "ti-facebook", link: "#"}
@@ -51,10 +48,13 @@ social:
 
 # About Section
 blurb:
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  Dancing with AI is a creative learning toolset and curriculum about building interactive, movement-focused projects that incorporate AI.
 
-blurb-btn-link: '/about'
-blurb-btn-name: know more
+#  Physical movement is one of the most engaging ways to interact with AI systems, but it’s rare today to see motion integrated with K-12 AI curricula. Beyond that, many middle schoolers have passionate interests in dance, art, physical movement in sports, and video games that involve physical motion (Beat Saber, Just Dance) which aren’t easy to build on in the typical creative learning environments found in classrooms. There is an exciting opportunity to use body movement as an entryway to teaching interesting, less-explored concepts in AI, particularly through active learning by having students design interactions with AI, explore different representations of data, and train image- and pose-recognition models.
+
+
+#blurb-btn-link: '/about'
+#blurb-btn-name: know more
 
 
 # About Page
@@ -103,9 +103,9 @@ skills:
 #-------------------------------
 # Exprerience Section
 
-experience-title: Experience
+experience-title: Learning Approach
 experience:
-- {name: Junior UX Designer, icon: 'icon-1.png', date: 'Jan 2007 - Feb 2009', organization: 'WEBEX'}
+- {name: Flipped Classes, icon: 'icon-1.png', date: 'Jan 2007 - Feb 2009', organization: 'WEBEX'}
 - {name: UX & UI Designer, icon: 'icon-2.png', date: 'Mar 2009 - Aug 2014', organization: 'AUGMEDIX'}
 - {name: Senior UI Designer, icon: 'icon-3.png', date: 'Sep 2014 - Present', organization: 'THEMEFISHER'}
 
@@ -152,19 +152,16 @@ services:
 
 # Portfolio Home Section
 portfolio-home-items:
-  - image : "assets/images/portfolio/item-1.png"
+  - image : "assets/images/dancing-with-ai/bird-squeak.png"
     url: "#"
 
-  - image : "assets/images/portfolio/item-2.png"
+  - image : "assets/images/dancing-with-ai/draw-yellow-circles.png"
     url: "#"
 
-  - image : "assets/images/portfolio/item-3.png"
+  - image : "assets/images/dancing-with-ai/emotion-face.png"
     url: "#"
 
-  - image : "assets/images/portfolio/item-4.png"
-    url: "#"
-
-  - image : "assets/images/portfolio/item-5.png"
+  - image : "assets/images/dancing-with-ai/spray-paint-face.png"
     url: "#"
 
 
