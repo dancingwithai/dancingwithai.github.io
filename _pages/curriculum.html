@@ -45,9 +45,9 @@ Daily Materials:
     <div class="row">
       <div class="col-lg-8 mx-auto">
         <h3 class="section-title mb-4">Day {{forloop.index}}: {{item.title}}</h3>
-        <ul class="font-secondary paragraph-lg" style="list-style-type: circle;">
+        <ul class="font-secondary paragraph-lg text-center" style="list-style-type: circle;">
           {% for link-item in item.links %}
-          <li class="mb-4"><a href="{{link-item.url}}">{{link-item.name}}</a></li>
+          <div class="btn btn-light font-tertiary btn-sm mb-4"><a href="{{link-item.url}}">{{link-item.name}}</a></div>
           {% endfor %}
 
           <div class="row shuffle-wrapper">
