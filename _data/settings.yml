@@ -154,14 +154,26 @@ curriculum-items:
         - name: "Teacher Script"
           url: "https://docs.google.com/document/d/1le5D3fjsKBPdXnUz2PdTzvUFBKmXhp5bOD2tUkggyiM/edit"
 
-  - title: Hype Day! Intro to AI
+  - title: Training Image + Pose Models
     links:
         - name: "Teacher Slides"
           url: "https://docs.google.com/presentation/d/14wcuF-48U-JLsaSoc9L1v_hrf494v33W8ROVFNYBSNg/edit?usp=sharing"
         - name: "Teacher Script"
           url: "https://docs.google.com/document/d/1le5D3fjsKBPdXnUz2PdTzvUFBKmXhp5bOD2tUkggyiM/edit"
 
-  - title: Hype Day! Intro to AI
+  - title: Posenet and Facial Expressions
+    links:
+        - name: "Teacher Slides"
+          url: "https://docs.google.com/presentation/d/14wcuF-48U-JLsaSoc9L1v_hrf494v33W8ROVFNYBSNg/edit?usp=sharing"
+        - name: "Teacher Script"
+          url: "https://docs.google.com/document/d/1le5D3fjsKBPdXnUz2PdTzvUFBKmXhp5bOD2tUkggyiM/edit"
+  - title: Designing / Evaluating Interactive AI Systems
+    links:
+        - name: "Teacher Slides"
+          url: "https://docs.google.com/presentation/d/14wcuF-48U-JLsaSoc9L1v_hrf494v33W8ROVFNYBSNg/edit?usp=sharing"
+        - name: "Teacher Script"
+          url: "https://docs.google.com/document/d/1le5D3fjsKBPdXnUz2PdTzvUFBKmXhp5bOD2tUkggyiM/edit"
+  - title: Capstone Project Bazaar!
     links:
         - name: "Teacher Slides"
           url: "https://docs.google.com/presentation/d/14wcuF-48U-JLsaSoc9L1v_hrf494v33W8ROVFNYBSNg/edit?usp=sharing"
@@ -182,9 +194,9 @@ portfolio-home-items:
 
   - image : "assets/images/dancing-with-ai/emotion-face.png"
     url: "#"
-
-  - image : "assets/images/dancing-with-ai/spray-paint-face.png"
-    url: "#"
+#
+#  - image : "assets/images/dancing-with-ai/spray-paint-face.png"
+#    url: "#"
 
 
 # Portfolio Page
