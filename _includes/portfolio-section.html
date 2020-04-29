@@ -2,17 +2,19 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h3 class="section-title">Try Some Projects</h3>
+        <h3 class="section-title">Try Some Projects!</h3>
       </div>
     </div>
     <div class="row shuffle-wrapper">
-      {% for item in site.data.settings.portfolio-home-items %}
+      {% for item in site.data.settings.all-projects %}
       <div class="col-lg-4 col-6 mb-4 shuffle-item">
         <div class="position-relative rounded hover-wrapper">
-          <img src="{{ site.baseurl }}/{{ item.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+          <img src="{{ site.baseurl }}/projects/{{ item.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
           <div class="hover-overlay">
             <div class="hover-content">
-              <a class="btn btn-light btn-sm" href="{{ item.url }}">Open project!</a>
+              <a class="btn btn-light btn-sm mb-3" href="https://mitmedialab.github.io/prg-extension-boilerplate/create/?project=https://mitmedialab.github.io/projects/{{ item.url }}">Open project!</a>
+              <br>
+              <a class="btn btn-light btn-sm" href="https://mitmedialab.github.io/projects/{{ item.url }}">Download</a>
             </div>
           </div>
         </div>

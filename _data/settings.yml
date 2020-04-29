@@ -197,11 +197,25 @@ course-wide-materials:
 # Portfolio (Section and Page)
 
 # Portfolio Home Section
-portfolio-home-items:
+all-projects:
+  - image: "circle-drawing.gif"
+    url: "hand-spray-paint.sb3"
+  - image: "shydog.gif"
+    url: "shydog.sb3"
+  - image: "hand-spray-paint.gif"
+    url: "hand-spray-paint.sb3"
+  - image: "be-a-pirate.gif"
+    url: "be-a-pirate.sb3"
+  - image: "emotion-face.png"
+    url: "emotion-switcher-tuned.sb3" # TODO: Fix!
+  - image: "bird-mouth.gif"
+    url: "bird-mouth.sb3"
+  - image: "eyelash-butterfly.gif"
+    url: "eyelash-butterfly.sb3"
 
+portfolio-home-items:
   - image : "assets/images/dancing-with-ai/draw-yellow-circles.png"
     url: "#"
-
   - image : "assets/images/dancing-with-ai/jenna-dog-hide.gif"
     url: "#"
   - image : "assets/images/dancing-with-ai/emotion-face.png"
