@@ -203,7 +203,7 @@ all-projects:
   - image: "shydog.gif"
     url: "shydog-commented.sb3"
   - image: "hand-spray-paint.gif"
-    url: "hand-spray-paint.sb3"
+    url: "hand-spray-paint-commented.sb3"
   - image: "be-a-pirate.gif"
     url: "be-a-pirate.sb3"
   - image: "emotion-face.png"
