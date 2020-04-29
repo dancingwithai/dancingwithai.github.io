@@ -2,30 +2,25 @@
 
 [Live Preview](https://dancingwithai.github.io)
 
-## Development and Deployment
+## Getting Started
 
-To run the full website locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` or `bundle exec jekyll serve` to start the Jekyll server.
+1. Make sure you have Ruby installed
+2. `bundle install`
+3. `bundle exec jekyll serve`
+4. Visit http://localhost:4000 
 
-See [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website for more info!
+# Deployment
 
-Make sure GitHub Pages is enabled for your repo. It might take some time for the site to propagate entirely.
+See Jekyll's [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) website for more info!
+
+If using GitHub, make sure GitHub Pages is enabled for your repo. It might take some time for the site to build and deploy.
 
 ## Customize
 
 Things you can customise in `_data/settings.yml` (no HTML/CSS):
 
-- Theme General Settings ( name, logo, email, phone, address )
-- Hero Section
-- About Section
-- Team Section
-- Skills Section
-- Experience Section
-- Education Section
-- Services Section
-- Portfolio Section
-- Testimonials Section
-- Client Slider Section
-- Contact Section
+- Theme Settings
+- Curriculum content
 
 ## Acknowledgements + Licenses
 

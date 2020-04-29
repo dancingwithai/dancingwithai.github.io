@@ -35,7 +35,7 @@ Daily Materials:
         <h3 class="section-title mb-4">Course-Wide Materials</h3>
         <ul class="font-secondary paragraph-lg" style="list-style-type: circle;">
           {% for item in site.data.settings.course-wide-materials %}
-            <li class="mb-4"><a href="{{item.url}}">{{item.name}}</a></li>
+          <div class="btn btn-light font-tertiary btn-sm mb-4"><a href="{{item.url}}">{{item.name}}</a></div>
           {% endfor %}
         </ul>
       </div>

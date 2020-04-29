@@ -8,8 +8,8 @@ phone: TBD
 address: TBD
 
 menu:
-- {name: Curriculum, link: '/curriculum/'}
-- {name: About, link: '/blog/'}
+- {name: Curriculum, link: '/curriculum'}
+- {name: About, link: '/about'}
 - {name: Create!, link: 'https://mitmedialab.github.io/prg-extension-boilerplate/create/'}
 
 
