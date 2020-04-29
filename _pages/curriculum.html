@@ -1,0 +1,78 @@
+---
+layout: page
+title: Curriculum
+---
+
+<!--
+
+Global Materials
+- Student Journals
+- Teacher Script (all days)
+
+Daily Materials:
+* Day 1
+- Slide
+- Teacher Script
+- Sample Projects:
+[ ] [ ]
+- Other Printable Materials
+
+* Day 2
+
+* Day 3
+
+
+-->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-4">
+        <img src="{{ site.baseurl }}/assets/images/dancing-with-ai/curriculum-overview.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Daily Activities</h2>
+      </div>
+    </div>
+
+<!--    curriculum-items:
+  - title: Hype Day! Intro to AI
+    links:
+        - name: "Teacher Slides"
+          url: "https://docs.google.com/presentation/d/14wcuF-48U-JLsaSoc9L1v_hrf494v33W8ROVFNYBSNg/edit?usp=sharing"
+        - name: "Teacher Script"
+          url: "https://docs.google.com/document/d/1le5D3fjsKBPdXnUz2PdTzvUFBKmXhp5bOD2tUkggyiM/edit"
+
+-->
+    {% for item in site.data.settings.curriculum-items %}
+    <div class="row">
+      <div class="col-12">
+        <h3 class="section-title mb-4">Day {{forloop.index}}: {{item.title}}</h3>
+        <ul class="font-secondary paragraph-lg" style="list-style-type: circle;">
+          {% for link-item in item.links %}
+          <li class="mb-4"><a href="{{link-item.url}}">{{link-item.name}}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    {% endfor %}
+
+
+    <div class="row shuffle-wrapper">
+      {% for item in site.data.settings.portfolio-home-items %}
+      <div class="col-lg-4 col-6 mb-4 shuffle-item">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="{{ site.baseurl }}/{{ item.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="{{ item.url }}">Open project!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

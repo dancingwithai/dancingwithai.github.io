@@ -8,7 +8,7 @@ phone: TBD
 address: TBD
 
 menu:
-- {name: Curriculum, link: '/blog/'}
+- {name: Curriculum, link: '/curriculum/'}
 - {name: About, link: '/blog/'}
 - {name: Create!, link: 'https://mitmedialab.github.io/prg-extension-boilerplate/create/'}
 
@@ -145,6 +145,28 @@ services:
     active: # Add true to select section
   }
 
+# Curriculum
+curriculum-items:
+  - title: Hype Day! Intro to AI
+    links:
+        - name: "Teacher Slides"
+          url: "https://docs.google.com/presentation/d/14wcuF-48U-JLsaSoc9L1v_hrf494v33W8ROVFNYBSNg/edit?usp=sharing"
+        - name: "Teacher Script"
+          url: "https://docs.google.com/document/d/1le5D3fjsKBPdXnUz2PdTzvUFBKmXhp5bOD2tUkggyiM/edit"
+
+  - title: Hype Day! Intro to AI
+    links:
+        - name: "Teacher Slides"
+          url: "https://docs.google.com/presentation/d/14wcuF-48U-JLsaSoc9L1v_hrf494v33W8ROVFNYBSNg/edit?usp=sharing"
+        - name: "Teacher Script"
+          url: "https://docs.google.com/document/d/1le5D3fjsKBPdXnUz2PdTzvUFBKmXhp5bOD2tUkggyiM/edit"
+
+  - title: Hype Day! Intro to AI
+    links:
+        - name: "Teacher Slides"
+          url: "https://docs.google.com/presentation/d/14wcuF-48U-JLsaSoc9L1v_hrf494v33W8ROVFNYBSNg/edit?usp=sharing"
+        - name: "Teacher Script"
+          url: "https://docs.google.com/document/d/1le5D3fjsKBPdXnUz2PdTzvUFBKmXhp5bOD2tUkggyiM/edit"
 
 
 #-------------------------------
