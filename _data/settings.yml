@@ -201,7 +201,7 @@ all-projects:
   - image: "circle-drawing.gif"
     url: "hand-spray-paint.sb3"
   - image: "shydog.gif"
-    url: "shydog.sb3"
+    url: "shydog-commented.sb3"
   - image: "hand-spray-paint.gif"
     url: "hand-spray-paint.sb3"
   - image: "be-a-pirate.gif"
