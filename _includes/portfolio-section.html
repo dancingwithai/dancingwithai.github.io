@@ -9,12 +9,14 @@
       {% for item in site.data.settings.all-projects %}
       <div class="col-lg-4 col-6 mb-4 shuffle-item">
         <div class="position-relative rounded hover-wrapper">
+<!--          <video type="video/webm" src="{{ site.baseurl }}/projects/{{ item.video }}" autoplay loop muted playsinline class="img-fluid rounded w-100 d-block">-->
+<!--          </video>-->
           <img src="{{ site.baseurl }}/projects/{{ item.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
           <div class="hover-overlay">
             <div class="hover-content">
-              <a class="btn btn-light btn-sm mb-3" href="https://mitmedialab.github.io/prg-extension-boilerplate/create/?project=https://dancingwithai.github.io/projects/{{ item.url }}">Open project!</a>
+              <a class="btn btn-primary btn-sm mb-3" href="{{site.data.settings.create-base-url}}?project={{site.data.settings.projects-base-url}}{{ item.url }}">Open project!</a>
               <br>
-              <a class="btn btn-light btn-sm" href="https://dancingwithai.github.io/projects/{{ item.url }}">Download</a>
+              <a class="btn btn-primary btn-sm" href="{{site.data.settings.projects-base-url}}{{ item.url }}">Download</a>
             </div>
           </div>
         </div>

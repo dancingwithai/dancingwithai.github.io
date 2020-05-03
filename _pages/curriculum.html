@@ -31,11 +31,11 @@ Daily Materials:
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-8 mx-auto">
-        <h3 class="section-title mb-4">Course-Wide Materials</h3>
+      <div class="col-lg-8 mx-auto text-center">
+        <h3 class="section-title">Course-Wide Materials</h3>
         <ul class="font-secondary paragraph-lg" style="list-style-type: circle;">
           {% for item in site.data.settings.course-wide-materials %}
-          <div class="btn btn-light font-tertiary btn-sm mb-4"><a href="{{item.url}}">{{item.name}}</a></div>
+          <div class="btn btn-primary font-tertiary btn-sm mb-4"><a href="{{item.url}}">{{item.name}}</a></div>
           {% endfor %}
         </ul>
       </div>
@@ -44,20 +44,20 @@ Daily Materials:
     {% for item in site.data.settings.curriculum-items %}
     <div class="row">
       <div class="col-lg-8 mx-auto">
-        <h3 class="section-title mb-4">Day {{forloop.index}}: {{item.title}}</h3>
+        <h3 class="section-title">Day {{forloop.index}}: {{item.title}}</h3>
         <ul class="font-secondary paragraph-lg text-center" style="list-style-type: circle;">
           {% for link-item in item.links %}
-          <div class="btn btn-light font-tertiary btn-sm mb-4"><a href="{{link-item.url}}">{{link-item.name}}</a></div>
+          <div class="btn btn-primary font-tertiary btn-sm mb-4"><a href="{{link-item.url}}">{{link-item.name}}</a></div>
           {% endfor %}
-
+          <div class="mb-4"></div>
           <div class="row shuffle-wrapper">
             {% for item in site.data.settings.portfolio-home-items %}
-            <div class="col-lg-4 col-6 mb-4 shuffle-item">
+            <div class="col-lg-6 col-6 mb-4 shuffle-item">
               <div class="position-relative rounded hover-wrapper">
-                <img src="{{ site.baseurl }}/{{ item.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+                <img src="{{ site.baseurl }}/{{ item.image }}" alt="portfolio-image" class="img-fluid rounded w-200 d-block">
                 <div class="hover-overlay">
                   <div class="hover-content">
-                    <a class="btn btn-light btn-sm" href="{{ item.url }}">Open project!</a>
+                    <a class="btn btn-primary btn-sm" href="{{ item.url }}">Open project!</a>
                   </div>
                 </div>
               </div>

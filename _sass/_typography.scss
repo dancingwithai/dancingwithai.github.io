@@ -23,7 +23,7 @@ p, .paragraph {
   line-height: 1.8;
   font-family: $primary-font;
   &-lg{
-    font-size: 22px;
+    font-size: 35px;
   }
 }
 
@@ -31,13 +31,22 @@ h1,h2,h3,h4,h5,h6 {
   color: $text-color-dark;
   font-family: $secondary-font;
   line-height: 1.2;
+  font-weight: 700;
 }
 
 h1, .h1{
-  font-size: 80px;
+  font-size: 94px;
   @include desktop {
     font-size: 65px;
   }
+}
+
+.paragraph-lg .btn-sm {
+  font-size: 25px;
+}
+
+.container .btn-sm {
+  font-size: 25px;
 }
 
 h2, .h2{

@@ -10,6 +10,7 @@
   position: relative;
   z-index: 1;
   transition: .2s ease;
+  //margin: 0 1rem;
 
   &:focus {
     outline: 0;
@@ -33,8 +34,12 @@
 
 .btn-primary {
   background: $primary-color;
-  color: $white;
+  color: $white !important;
 
+  a {
+    color: $white !important;
+
+  }
   &:active {
     background: lighten($color: $primary-color, $amount: 10) !important;
   }
