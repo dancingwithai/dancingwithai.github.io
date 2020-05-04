@@ -25,3 +25,4 @@ Things you can customise in `_data/settings.yml` (no HTML/CSS):
 ## Acknowledgements + Licenses
 
 - Theme + Jekyll from Themefisher (https://themefisher.com/) (https://github.com/themefisher/kross-jekyll-portfolio-template/blob/master/LICENSE.txt)
+- Pirate Project background: <a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by freepik - www.freepik.com</a>
