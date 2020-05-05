@@ -208,6 +208,8 @@ all-projects:
     url: "hand-spray-paint.sb3"
   - image: "be-a-pirate.gif"
     url: "Pirate Face.sb3"
+  - image: "EmotionJellyfish.gif"
+    url: "EmotionJellyfish.sb3"
   - image: "bird-mouth.gif"
     url: "ChirpBird.sb3"
   - image: "ChirpBirdForever.gif"
