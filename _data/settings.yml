@@ -192,6 +192,12 @@ curriculum-items:
         - image: "ChirpBirdForever.gif"
           url: "ChirpBirdForever.sb3"
           video: "ChirpBirdForever.webm"
+        - image: "WatermelonNom.gif"
+          url: "CatcherModel.sb3"
+          gfycat: "rawdampcob"
+        - image: "FingerPuppetShow.gif"
+          url: "FingerPuppetShow.sb3"
+          gfycat: "sophisticatedqueasycrustacean"
 
   - title: Designing / Evaluating Interactive AI Systems
     links:
@@ -199,11 +205,14 @@ curriculum-items:
           url: "https://docs.google.com/presentation/d/1fTjIZ51WpfjdJ0Cd2okxa48X7ButRY_uq53C8Aq5VH4/edit?usp=sharing"
         - name: "Teacher Script"
           url: "https://docs.google.com/document/d/1M3D2MtPikfYSaIu6GU8KYtcfJQW4nI_T1HViD4IM9u8/edit?usp=sharing"
-    projects: 
-        - image: "shydog.gif"
-          url: "shydog.sb3"
-        - image: "bunnyears.gif"
-          url: "bunnyears.sb3"
+    projects:
+      - image: "WhichBin.gif"
+        url: "WhichBin.sb3"
+        gfycat: "spotlesspleasantburro"
+      - image: "CatcherModel.gif"
+        url: "CatcherModel.sb3"
+        gfycat: "UnselfishMiserableCoelacanth"
+
   - title: Capstone Project Bazaar!
     links:
         - name: "Teacher Slides"
@@ -243,6 +252,18 @@ all-projects:
     video: "ChirpBirdForever.webm"
   - image: "EyelashButterfly.gif"
     url: "EyelashButterfly.sb3"
+  - image: "WatermelonNom.gif"
+    url: "CatcherModel.sb3"
+    gfycat: "rawdampcob"
+  - image: "FingerPuppetShow.gif"
+    url: "FingerPuppetShow.sb3"
+    gfycat: "sophisticatedqueasycrustacean"
+  - image: "WhichBin.gif"
+    url: "WhichBin.sb3"
+    gfycat: "spotlesspleasantburro"
+  - image: "CatcherModel.gif"
+    url: "CatcherModel.sb3"
+    gfycat: "UnselfishMiserableCoelacanth"
 
 portfolio-home-items:
   - image : "assets/images/dancing-with-ai/draw-yellow-circles.png"
