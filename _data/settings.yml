@@ -210,6 +210,9 @@ all-projects:
     url: "Pirate Face.sb3"
   - image: "bird-mouth.gif"
     url: "ChirpBird.sb3"
+  - image: "ChirpBirdForever.gif"
+    url: "ChirpBirdForever.sb3"
+    video: "ChirpBirdForever.webm"
   - image: "eyelash-butterfly.gif"
     url: "eyelash-butterfly.sb3"
 
