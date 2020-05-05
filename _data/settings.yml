@@ -209,7 +209,7 @@ all-projects:
   - image: "be-a-pirate.gif"
     url: "Pirate Face.sb3"
   - image: "bird-mouth.gif"
-    url: "bird-mouth.sb3"
+    url: "ChirpBird.sb3"
   - image: "eyelash-butterfly.gif"
     url: "eyelash-butterfly.sb3"
 
