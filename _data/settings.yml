@@ -163,18 +163,18 @@ curriculum-items:
   - title: Training Image + Pose Models
     links:
         - name: "Teacher Slides"
-          url: "https://docs.google.com/presentation/d/14wcuF-48U-JLsaSoc9L1v_hrf494v33W8ROVFNYBSNg/edit?usp=sharing"
+          url: "https://docs.google.com/presentation/d/1yUOYuGJSXAIsc-XmoPkpdkpiAML69wmQTaFvT8nV8h8/edit?usp=sharing"
         - name: "Teacher Script"
-          url: "https://docs.google.com/document/d/1le5D3fjsKBPdXnUz2PdTzvUFBKmXhp5bOD2tUkggyiM/edit"
+          url: "https://docs.google.com/document/d/14FzjNUhx6TqavIkkkcACtDI1-W9B85F5h3fq_S9AYfw/edit?usp=sharing"
     projects:
-        - image: "shydog.gif"
-          url: "shydog.sb3"
+        - image: "dog.gif"
+          url: "https://teachablemachine.withgoogle.com/"
   - title: Posenet and Facial Expressions
     links:
         - name: "Teacher Slides"
-          url: "https://docs.google.com/presentation/d/14wcuF-48U-JLsaSoc9L1v_hrf494v33W8ROVFNYBSNg/edit?usp=sharing"
+          url: "https://docs.google.com/presentation/d/1sGvP9pR571TgyIOdfW889REXZ0wvL8dRuQCTWvMMvgM/edit?usp=sharing"
         - name: "Teacher Script"
-          url: "https://docs.google.com/document/d/1le5D3fjsKBPdXnUz2PdTzvUFBKmXhp5bOD2tUkggyiM/edit"
+          url: "https://docs.google.com/document/d/1oWskcucRLKt2ujWd7Ei7vleu4n-S0Q54o9GXHw6Qqq8/edit?usp=sharing"
     projects:
         - image: "circle-drawing.gif"
           url: "circle-drawing.sb3"
@@ -196,15 +196,20 @@ curriculum-items:
   - title: Designing / Evaluating Interactive AI Systems
     links:
         - name: "Teacher Slides"
-          url: "https://docs.google.com/presentation/d/14wcuF-48U-JLsaSoc9L1v_hrf494v33W8ROVFNYBSNg/edit?usp=sharing"
+          url: "https://docs.google.com/presentation/d/1fTjIZ51WpfjdJ0Cd2okxa48X7ButRY_uq53C8Aq5VH4/edit?usp=sharing"
         - name: "Teacher Script"
-          url: "https://docs.google.com/document/d/1le5D3fjsKBPdXnUz2PdTzvUFBKmXhp5bOD2tUkggyiM/edit"
+          url: "https://docs.google.com/document/d/1M3D2MtPikfYSaIu6GU8KYtcfJQW4nI_T1HViD4IM9u8/edit?usp=sharing"
+    projects: 
+        - image: "shydog.gif"
+          url: "shydog.sb3"
+        - image: "bunnyears.gif"
+          url: "bunnyears.sb3"
   - title: Capstone Project Bazaar!
     links:
         - name: "Teacher Slides"
-          url: "https://docs.google.com/presentation/d/14wcuF-48U-JLsaSoc9L1v_hrf494v33W8ROVFNYBSNg/edit?usp=sharing"
+          url: "https://docs.google.com/presentation/d/1RMBkWa80dO1q1Q8iTjUoMuMzSTJQrihJH_45PGvaFZA/edit?usp=sharing"
         - name: "Teacher Script"
-          url: "https://docs.google.com/document/d/1le5D3fjsKBPdXnUz2PdTzvUFBKmXhp5bOD2tUkggyiM/edit"
+          url: "https://docs.google.com/document/d/1QzuINyJABgQNbf1tW6jCv4V0hRbynO-nJ6o_43Wt9do/edit?usp=sharing"
 
 
 course-wide-materials:
