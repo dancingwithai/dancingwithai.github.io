@@ -173,6 +173,24 @@ curriculum-items:
           url: "https://docs.google.com/presentation/d/14wcuF-48U-JLsaSoc9L1v_hrf494v33W8ROVFNYBSNg/edit?usp=sharing"
         - name: "Teacher Script"
           url: "https://docs.google.com/document/d/1le5D3fjsKBPdXnUz2PdTzvUFBKmXhp5bOD2tUkggyiM/edit"
+    projects:
+        - image: "circle-drawing.gif"
+          url: "circle-drawing.sb3"
+        - image: "hand-spray-paint.gif"
+          url: "hand-spray-paint.sb3"
+        - image: "be-a-pirate.gif"
+          url: "Pirate Face.sb3"
+        - image: "EyelashButterfly.gif"
+          url: "EyelashButterfly.sb3"
+        - image: "EmotionJellyfish.gif"
+          url: "EmotionJellyfish.sb3"
+          gfycat: "GlossyUnripeFireant"
+        - image: "bird-mouth.gif"
+          url: "ChirpBird.sb3"
+        - image: "ChirpBirdForever.gif"
+          url: "ChirpBirdForever.sb3"
+          video: "ChirpBirdForever.webm"
+
   - title: Designing / Evaluating Interactive AI Systems
     links:
         - name: "Teacher Slides"
@@ -200,10 +218,10 @@ course-wide-materials:
 
 # Portfolio Home Section
 all-projects:
-  - image: "circle-drawing.gif"
-    url: "circle-drawing.sb3"
   - image: "shydog.gif"
     url: "shydog.sb3"
+  - image: "circle-drawing.gif"
+    url: "circle-drawing.sb3"
   - image: "hand-spray-paint.gif"
     url: "hand-spray-paint.sb3"
   - image: "be-a-pirate.gif"

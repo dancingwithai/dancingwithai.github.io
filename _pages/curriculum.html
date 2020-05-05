@@ -31,7 +31,7 @@ Daily Materials:
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-8 mx-auto text-center">
+      <div class="col-lg-10 mx-auto text-center">
         <h3 class="section-title">Course-Wide Materials</h3>
         <ul class="font-secondary paragraph-lg" style="list-style-type: circle;">
           {% for item in site.data.settings.course-wide-materials %}
@@ -43,7 +43,7 @@ Daily Materials:
 
     {% for item in site.data.settings.curriculum-items %}
     <div class="row">
-      <div class="col-lg-8 mx-auto">
+      <div class="col-lg-10 mx-auto">
         <h3 class="section-title">Day {{forloop.index}}: {{item.title}}</h3>
         <ul class="font-secondary paragraph-lg text-center" style="list-style-type: circle;">
           {% for link-item in item.links %}
@@ -51,13 +51,17 @@ Daily Materials:
           {% endfor %}
           <div class="mb-4"></div>
           <div class="row shuffle-wrapper">
-            {% for item in site.data.settings.portfolio-home-items %}
-            <div class="col-lg-6 col-6 mb-4 shuffle-item">
+            {% for item in item.projects %}
+            <div class="col-lg-4 col-6 mb-4 shuffle-item">
               <div class="position-relative rounded hover-wrapper">
-                <img src="{{ site.baseurl }}/{{ item.image }}" alt="portfolio-image" class="img-fluid rounded w-200 d-block">
+                <!--          <video type="video/webm" src="{{ site.baseurl }}/projects/{{ item.video }}" autoplay loop muted playsinline class="img-fluid rounded w-100 d-block">-->
+                <!--          </video>-->
+                <img src="{{ site.baseurl }}/projects/{{ item.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
                 <div class="hover-overlay">
                   <div class="hover-content">
-                    <a class="btn btn-primary btn-sm" href="{{ item.url }}">Open project!</a>
+                    <a class="btn btn-primary btn-sm mb-3" href="{{site.data.settings.create-base-url}}?project={{site.data.settings.projects-base-url}}{{ item.url }}">Open project!</a>
+                    <br>
+                    <a class="btn btn-primary btn-sm" href="{{site.data.settings.projects-base-url}}{{ item.url }}">Download</a>
                   </div>
                 </div>
               </div>
