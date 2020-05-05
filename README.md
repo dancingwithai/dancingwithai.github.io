@@ -1,6 +1,6 @@
 ## Dancing with AI Curriculum 
 
-[Live Preview](https://dancingwithai.github.io)
+[Live Preview](https://dancingwithai.media.mit.edu)
 
 ## Getting Started
 

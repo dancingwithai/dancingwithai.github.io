@@ -13,7 +13,7 @@ menu:
 - {name: Create!, link: 'https://mitmedialab.github.io/prg-extension-boilerplate/create/'}
 
 create-base-url: https://mitmedialab.github.io/prg-extension-boilerplate/create/
-projects-base-url: https://dancingwithai.github.io/projects/
+projects-base-url: https://dancingwithai.media.mit.edu/projects/
 
 #-------------------------------
 # Google Analytics Section
