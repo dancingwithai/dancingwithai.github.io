@@ -213,8 +213,8 @@ all-projects:
   - image: "ChirpBirdForever.gif"
     url: "ChirpBirdForever.sb3"
     video: "ChirpBirdForever.webm"
-  - image: "eyelash-butterfly.gif"
-    url: "eyelash-butterfly.sb3"
+  - image: "EyelashButterfly.gif"
+    url: "EyelashButterfly.sb3"
 
 portfolio-home-items:
   - image : "assets/images/dancing-with-ai/draw-yellow-circles.png"
