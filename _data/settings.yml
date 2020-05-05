@@ -166,7 +166,9 @@ curriculum-items:
           url: "https://docs.google.com/presentation/d/14wcuF-48U-JLsaSoc9L1v_hrf494v33W8ROVFNYBSNg/edit?usp=sharing"
         - name: "Teacher Script"
           url: "https://docs.google.com/document/d/1le5D3fjsKBPdXnUz2PdTzvUFBKmXhp5bOD2tUkggyiM/edit"
-
+    projects:
+        - image: "shydog.gif"
+          url: "shydog.sb3"
   - title: Posenet and Facial Expressions
     links:
         - name: "Teacher Slides"
