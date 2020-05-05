@@ -201,7 +201,7 @@ course-wide-materials:
 # Portfolio Home Section
 all-projects:
   - image: "circle-drawing.gif"
-    url: "circle-drawing.gif"
+    url: "circle-drawing.sb3"
   - image: "shydog.gif"
     url: "shydog.sb3"
   - image: "hand-spray-paint.gif"
