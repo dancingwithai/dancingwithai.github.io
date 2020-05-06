@@ -258,6 +258,7 @@ course-wide-materials:
 # Portfolio (Section and Page)
 
 # Portfolio Home Section
+# TODO: maybe just collect these from curriculum days? or feature just a few :D
 all-projects:
   - image: "shydog.gif"
     url: "NewShyDog.sb3"
@@ -292,6 +293,15 @@ all-projects:
   - image: "SnakeGame.gif"
     url: "SnakeGame.sb3"
     gfycat: "ShorttermFriendlyFairybluebird"
+  - image: "ShoulderFriend.gif"
+    url: "ShoulderFriend.sb3"
+    gfycat: "AdvancedInfatuatedDwarfmongoose"
+  - image: "ThumbsUpSpider.gif"
+    url: "ThumbsUpSpider.sb3"
+    gfycat: "DirtyInbornIrrawaddydolphin"
+  - image: "YayGrr.gif"
+    url: "YayGrr.sb3"
+    gfycat: "DirtyInbornIrrawaddydolphin"
 
 portfolio-home-items:
   - image : "assets/images/dancing-with-ai/draw-yellow-circles.png"
