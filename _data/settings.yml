@@ -166,9 +166,13 @@ curriculum-items:
           url: "https://docs.google.com/presentation/d/1yUOYuGJSXAIsc-XmoPkpdkpiAML69wmQTaFvT8nV8h8/edit?usp=sharing"
         - name: "Teacher Script"
           url: "https://docs.google.com/document/d/14FzjNUhx6TqavIkkkcACtDI1-W9B85F5h3fq_S9AYfw/edit?usp=sharing"
-    projects:
-        - image: "dog.gif"
+        - name: "Teachable Machine"
           url: "https://teachablemachine.withgoogle.com/"
+    images:
+        - image: "cat-laptop-train.gif"
+          caption: "Training a Teachable Machine Model"
+        - image: "dog.gif"
+          caption: "Google <br>Teachable Machine"
   - title: Posenet and Facial Expressions
     links:
         - name: "Teacher Slides"
@@ -199,7 +203,7 @@ curriculum-items:
           url: "FingerPuppetShow.sb3"
           gfycat: "sophisticatedqueasycrustacean"
 
-  - title: Designing / Evaluating Interactive AI Systems
+  - title: Making Interactive AI Systems
     links:
         - name: "Teacher Slides"
           url: "https://docs.google.com/presentation/d/1fTjIZ51WpfjdJ0Cd2okxa48X7ButRY_uq53C8Aq5VH4/edit?usp=sharing"
@@ -215,6 +219,9 @@ curriculum-items:
       - image: "SnakeGame.gif"
         url: "SnakeGame.sb3"
         gfycat: "ShorttermFriendlyFairybluebird"
+      - image: "shydog.gif"
+        url: "NewShyDog.sb3"
+
 
   - title: Capstone Project Bazaar!
     links:
@@ -238,7 +245,7 @@ course-wide-materials:
 # Portfolio Home Section
 all-projects:
   - image: "shydog.gif"
-    url: "shydog.sb3"
+    url: "NewShyDog.sb3"
   - image: "circle-drawing.gif"
     url: "circle-drawing.sb3"
   - image: "hand-spray-paint.gif"

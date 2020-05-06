@@ -51,6 +51,18 @@ Daily Materials:
           {% endfor %}
           <div class="mb-4"></div>
           <div class="row shuffle-wrapper text-center">
+            {% for item in item.images %}
+            <div class="col-lg-4 col-6 mb-4 shuffle-item">
+              <div class="position-relative rounded hover-wrapper">
+                <img src="{{ site.baseurl }}/projects/{{ item.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+                <div class="hover-overlay">
+                  <div class="hover-content text-white">
+                    {{item.caption}}
+                  </div>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
             {% for item in item.projects %}
             <div class="col-lg-4 col-6 mb-4 shuffle-item">
               <div class="position-relative rounded hover-wrapper">
