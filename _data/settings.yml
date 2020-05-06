@@ -217,6 +217,9 @@ curriculum-items:
         - image: "YayGrr.gif"
           url: "YayGrr.sb3"
           gfycat: "DirtyInbornIrrawaddydolphin"
+        - image: "RainbowVolleyball.gif"
+          url: "RainbowVolleyball.sb3"
+          gfycat: "yellowishrashatlanticblackgoby"
 
   - title: Making Interactive AI Systems
     links:
@@ -302,6 +305,9 @@ all-projects:
   - image: "YayGrr.gif"
     url: "YayGrr.sb3"
     gfycat: "DirtyInbornIrrawaddydolphin"
+  - image: "RainbowVolleyball.gif"
+    url: "RainbowVolleyball.sb3"
+    gfycat: "yellowishrashatlanticblackgoby"
 
 portfolio-home-items:
   - image : "assets/images/dancing-with-ai/draw-yellow-circles.png"
