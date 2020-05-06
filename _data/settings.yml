@@ -241,6 +241,10 @@ curriculum-items:
         url: "NewShyDog.sb3"
       - image: "bunnyears.gif"
         url: "bunnyears.sb3"
+      - image: "nocorona.gif"
+        url: "nocorona.sb3"
+      - image: "posturechecker.gif"
+        url: "posturechecker.sb3"
 
 
   - title: Capstone Project Bazaar!
@@ -312,6 +316,10 @@ all-projects:
     gfycat: "yellowishrashatlanticblackgoby"
   - image: "bunnyears.gif"
     url: "bunnyears.sb3"
+  - image: "nocorona.gif"
+    url: "nocorona.sb3"
+  - image: "posturechecker.gif"
+    url: "posturechecker.sb3"
 
 portfolio-home-items:
   - image : "assets/images/dancing-with-ai/draw-yellow-circles.png"
