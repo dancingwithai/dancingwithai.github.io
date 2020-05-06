@@ -212,6 +212,9 @@ curriculum-items:
       - image: "CatcherModel.gif"
         url: "CatcherModel.sb3"
         gfycat: "UnselfishMiserableCoelacanth"
+      - image: "SnakeGame.gif"
+        url: "SnakeGame.sb3"
+        gfycat: "ShorttermFriendlyFairybluebird"
 
   - title: Capstone Project Bazaar!
     links:
@@ -264,6 +267,9 @@ all-projects:
   - image: "CatcherModel.gif"
     url: "CatcherModel.sb3"
     gfycat: "UnselfishMiserableCoelacanth"
+  - image: "SnakeGame.gif"
+    url: "SnakeGame.sb3"
+    gfycat: "ShorttermFriendlyFairybluebird"
 
 portfolio-home-items:
   - image : "assets/images/dancing-with-ai/draw-yellow-circles.png"
