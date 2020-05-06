@@ -166,8 +166,9 @@ curriculum-items:
           url: "https://docs.google.com/presentation/d/1yUOYuGJSXAIsc-XmoPkpdkpiAML69wmQTaFvT8nV8h8/edit?usp=sharing"
         - name: "Teacher Script"
           url: "https://docs.google.com/document/d/14FzjNUhx6TqavIkkkcACtDI1-W9B85F5h3fq_S9AYfw/edit?usp=sharing"
-        - name: "Teachable Machine"
-          url: "https://teachablemachine.withgoogle.com/"
+    resource_links:
+      - name: "Teachable Machine"
+        url: "https://teachablemachine.withgoogle.com/"
     images:
         - image: "cat-laptop-train.gif"
           caption: "Training a Teachable Machine Model"
@@ -179,6 +180,11 @@ curriculum-items:
           url: "https://docs.google.com/presentation/d/1sGvP9pR571TgyIOdfW889REXZ0wvL8dRuQCTWvMMvgM/edit?usp=sharing"
         - name: "Teacher Script"
           url: "https://docs.google.com/document/d/1oWskcucRLKt2ujWd7Ei7vleu4n-S0Q54o9GXHw6Qqq8/edit?usp=sharing"
+    resource_links:
+        - name: "Coding: Introduction Tutorial"
+          url: "https://mitmedialab.github.io/prg-extension-boilerplate/create/?tutorial=getStarted"
+        - name: "Coding: Imagine a World Tutorial"
+          url: "https://mitmedialab.github.io/prg-extension-boilerplate/create/?tutorial=imagine"
     projects:
         - image: "circle-drawing.gif"
           url: "circle-drawing.sb3"

@@ -55,6 +55,35 @@
   }
 }
 
+.btn-primary-resource {
+  &::after {
+    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAASUlEQVQoU5WQwQ4AIAhC4/8/2rJmQ5NDHuUNBhjizMxYwvMAEABrGwSJHeS/FkxOwGGqY4UiIYEKaqO7BO8gy3Cpf1CNfous+SZoSE/7IpEx6wAAAABJRU5ErkJggg==);
+    margin: -10px -3px -10px 7px;
+    color: black !important;
+  }
+
+  background: $primary-color;
+  color: $white !important;
+
+  a {
+    color: $white !important;
+
+  }
+  &:active {
+    background: lighten($color: $primary-color, $amount: 10) !important;
+  }
+
+  &:hover {
+    background: lighten($color: $primary-color, $amount: 10);
+  }
+
+  &.focus,
+  &.active {
+    background: lighten($color: $primary-color, $amount: 10) !important;
+    box-shadow: none !important;
+  }
+}
+
 
 .btn-transparent {
   background: transparent;

@@ -49,6 +49,12 @@ Daily Materials:
           {% for link-item in item.links %}
           <div class="btn btn-primary font-tertiary btn-sm mb-4"><a href="{{link-item.url}}">{{link-item.name}}</a></div>
           {% endfor %}
+          {% if item.resource_links %}
+          <div class="mb-4"></div>
+          {% endif %}
+          {% for link-item in item.resource_links %}
+          <div class="btn btn-primary-resource font-tertiary btn-xs mb-4"><a href="{{link-item.url}}">{{link-item.name}}</a></div>
+          {% endfor %}
           <div class="mb-4"></div>
           <div class="row shuffle-wrapper text-center">
             {% for item in item.images %}
