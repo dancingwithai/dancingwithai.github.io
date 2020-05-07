@@ -220,6 +220,9 @@ curriculum-items:
         - image: "RainbowVolleyball.gif"
           url: "RainbowVolleyball.sb3"
           gfycat: "yellowishrashatlanticblackgoby"
+        - image: "FingerFoodNinja.gif"
+          url: "FingerFoodNinja.sb3"
+          gfycat: "SlushySophisticatedAlbatross"
 
   - title: Making Interactive AI Systems
     links:
@@ -320,6 +323,9 @@ all-projects:
     url: "nocorona.sb3"
   - image: "posturechecker.gif"
     url: "posturechecker.sb3"
+  - image: "FingerFoodNinja.gif"
+    url: "FingerFoodNinja.sb3"
+    gfycat: "SlushySophisticatedAlbatross"
 
 portfolio-home-items:
   - image : "assets/images/dancing-with-ai/draw-yellow-circles.png"
