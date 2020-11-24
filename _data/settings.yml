@@ -203,7 +203,7 @@ curriculum-items:
           url: "ChirpBirdForever.sb3"
           video: "ChirpBirdForever.webm"
         - image: "WatermelonNom.gif"
-          url: "CatcherModel.sb3"
+          url: "WatermelonNom.sb3"
           gfycat: "rawdampcob"
         - image: "FingerPuppetShow.gif"
           url: "FingerPuppetShow.sb3"
@@ -258,10 +258,10 @@ curriculum-items:
 course-wide-materials:
   - name: "Student Journal"
     url: "https://docs.google.com/presentation/d/1ILgv4ImxyDEvrME0M3CViTqjApBKO4nLvuy0VV02XWg/edit"
-  - name: "Block Cards"
-    url: "https://docs.google.com/presentation/d/1ILgv4ImxyDEvrME0M3CViTqjApBKO4nLvuy0VV02XWg/edit"
-  - name: "Project Idea Cards"
-    url: "https://docs.google.com/presentation/d/1ILgv4ImxyDEvrME0M3CViTqjApBKO4nLvuy0VV02XWg/edit"
+  - name: "Scaffolding Cards"
+    url: "https://tinyurl.com/dwai-codingcards"
+  - name: "Standards"
+    url: "https://docs.google.com/document/d/15ba3GB6g1GHxJ40YV0NFAYz__GG2kpIs2OBrZXbKgMw/edit?usp=sharing"
 
 #-------------------------------
 # Portfolio (Section and Page)
@@ -288,7 +288,7 @@ all-projects:
   - image: "EyelashButterfly.gif"
     url: "EyelashButterfly.sb3"
   - image: "WatermelonNom.gif"
-    url: "CatcherModel.sb3"
+    url: "WatermelonNom.sb3"
     gfycat: "rawdampcob"
   - image: "FingerPuppetShow.gif"
     url: "FingerPuppetShow.sb3"
