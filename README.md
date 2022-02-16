@@ -42,9 +42,8 @@ When adding a project, you can choose whether or not you'd like to have the proj
 
 Conveniently, you can add project files without ever having to clone this repositiory. Simply do the following:
 
-1. Navigate to the repo's [projects directory](https://github.com/dancingwithai/dancingwithai.github.io/tree/master/projects)
-2. Click on the 'Add file' drop down and select 'Upload files'
-3. That will bring you to a new page where you can:
+1. Navigate to the repo's [projects upload page](https://github.com/dancingwithai/dancingwithai.github.io/upload/master/projects)
+3. The above link will bring you to a new page where you can:
     - Choose the files you'd like to upload
       - **NOTE:** You should upload a `.gif` demonstrating your project in addition to the `.sb3` project file. If you won't be adding your project to the project's gallery in [Step 2](#step-2), it's not necessarily required, but you'll just need to remember to add a `.gif` later if you'd like add the project to the gallery. So might as well do it now! 
     - Commit the changes directly to the `master` branch (please ensure the commit message and description are clear), which will automatically trigger the site to re-deploy.
